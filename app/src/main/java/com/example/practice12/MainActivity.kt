@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         val imageViewApple: ImageView=findViewById(R.id.imageView2)
         imageViewApple.setImageDrawable(ContextCompat.getDrawable(this,R.drawable.apple))
         val checkBoxApple: CheckBox=findViewById(R.id.checkBox1)
-        if (checkBoxApple.isChecked==false)
+        if (checkBoxApple.isChecked==true)
             imageViewApple.setImageDrawable(null)
     }
 
@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         val imageViewPear: ImageView=findViewById(R.id.imageView3)
         imageViewPear.setImageDrawable(ContextCompat.getDrawable(this,R.drawable.pear))
         val checkBoxPear: CheckBox=findViewById(R.id.checkBox2)
-        if (checkBoxPear.isChecked==false)
+        if (checkBoxPear.isChecked==true)
             imageViewPear.setImageDrawable(null)
     }
 
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         val imageViewGrape: ImageView=findViewById(R.id.imageView4)
         imageViewGrape.setImageDrawable(ContextCompat.getDrawable(this,R.drawable.grapes))
         val checkBoxGrape: CheckBox=findViewById(R.id.checkBox3)
-        if (checkBoxGrape.isChecked==false)
+        if (checkBoxGrape.isChecked==true)
             imageViewGrape.setImageDrawable(null)
     }
 
